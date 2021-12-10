@@ -659,7 +659,6 @@ lab.experiment('responses', () => {
         items: {
           $ref: '#/definitions/datapoint'
         },
-        required: ['datapoint']
       }
     });
     const isValid = await Validate.test(response.result);
@@ -720,7 +719,6 @@ lab.experiment('responses', () => {
         items: {
           $ref: '#/definitions/datapoint'
         },
-        required: ['datapoint']
       }
     });
     const isValid = await Validate.test(response.result);
